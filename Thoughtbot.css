@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {background-color: rgb(68, 27, 27);
+    /* margin: 10px; */
+    color: white;
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 100px;
+        background: rgb(100, 49, 49);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+    .navbar a {
+        font-size: 16px;
+        color: #fff;
+        font-weight: 500;
+        text-decoration: none;
+        margin-left: 20px;
+
+    }
+
+    .navbar a:hover::before {
+        color: red;
+    }
+    /* .navlinks {
+        margin-top: 0px;
+        color: rgb(255, 255, 255);
+    } */
+/* .navbar {
+    border: 3px solid gray;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    margin-top: 0px;
+    
+    background-color: rgb(136, 55, 75)
+
+} */
+.main {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+    margin-top: 150px;
+}
+.Title {
+    max-width: 544px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 2.1rem;
+    margin-top: 2rem;
+    /* margin-bottom: 1.8rem; */
+}
+
+ol, ul{
+    list-style-type: none;
+}
+
+.subscribe {
+    margin-top: 50px;
+}
+fieldset {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+input {
+    padding: 10px;
+    width: 75%;
+}
+button {
+    margin-left: 5px;
+    padding: 10px;
+    width: 25%;
+}
+
+
+
+
+
+/* .body {
+    margin-top: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+} */
+    
+/* .logo {
+    width: 38.5%;
+} */
+
+/* .content h1 h3 p {
+justify-content: center;
+} */
